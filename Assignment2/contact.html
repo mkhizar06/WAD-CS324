@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Khizar Real Estate &amp; Builders - house construction in Bahria Enclave, Islamabad.">
+  <title>Contact | Khizar Real Estate &amp; Builders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.jpg" alt="Khizar Real Estate &amp; Builders logo"></a>
+      <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="current" aria-current="page">Contact</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-title">
+      <h1>Contact Us</h1>
+      <p>Tell us about your plot or project and we will reply with a free quotation.</p>
+    </section>
+    <div class="container form-wrap">
+      <section class="panel">
+        <h2>Send a message</h2>
+        <form action="contact.html" method="post">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required minlength="3">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" required pattern="[0-9]{10,13}" placeholder="03001234567">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="service">Service needed</label>
+          <select id="service" name="service">
+            <option>Construction Packages</option>
+            <option>Architectural Design &amp; Map Approvals</option>
+            <option>Interior Designing</option>
+            <option>Sales &amp; Purchase</option>
+            <option>Consultancy</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </section>
+      <aside class="panel">
+        <h2>Visit us</h2>
+        <address>Khizar Real Estate &amp; Builders<br>Bahria Enclave, Islamabad<br>Pakistan</address>
+        <p><strong>Office hours</strong><br>Mon to Sat, 10am to 6pm</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <address>
+        <strong>Location:</strong> Bahria Enclave, Islamabad<br>
+        <strong>Phone:</strong> <a href="tel:+920000000000">+92 000 0000000</a><br>
+        <strong>Email:</strong> <a href="mailto:info@khizarbuilders.pk">info@khizarbuilders.pk</a>
+      </address>
+      <img src="images/logo.jpg" alt="Khizar Real Estate &amp; Builders">
+      <p class="fbr">FBR Registered</p>
+    </div>
+  </footer>
+</body>
+</html>
